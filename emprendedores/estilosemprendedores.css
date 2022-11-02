@@ -1,0 +1,133 @@
+
+/*Caracteristicas Imagen del emprendedor*/
+.empimg{
+	width: 150px;
+    height: 150px;
+    border-radius: 50%;
+	width: 150px;
+	border: 5px solid rgb(55, 78, 55);
+   
+}
+
+/*Caracteristicas lista de emprendedores*/
+.lista_personas{
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.lista_personas h2 a{
+  background: linear-gradient(yellow,rgb(30, 194, 8));
+	-webkit-background-clip: text;
+	color: transparent;  
+    font-family: lazer;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+/*Titulo*/
+.titulo{
+    color: #fff;
+    text-align: center;
+    margin-top: 4%;
+    background: linear-gradient(yellow,rgb(30, 194, 8));
+    -webkit-background-clip: text;
+    color: transparent;  
+      font-family: lazer;
+}
+
+/*Caracteristicas Caja del emprendedor*/
+.caja{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    padding-top: 20px;
+    background: linear-gradient(to right, #025709, #000000);
+    background: linear-gradient(#09630457, #000000);
+    box-shadow: 10px 10px 20px #000000;
+    color: #fff;
+
+    
+
+    }
+
+.caja h2{
+    text-align: center;
+    background: linear-gradient(rgb(30, 194, 8),rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    color: transparent;  
+      font-family: lazer;
+}
+
+.caja .persona{
+    border-radius: 50%;
+    width: 140px;
+    
+    border: 5px solid rgb(55, 78, 55);
+    display: block;
+    margin: auto;
+
+}
+
+.caja h4{
+  background: linear-gradient(yellow,rgb(30, 194, 8));
+	-webkit-background-clip: text;
+	color: transparent;  
+ 
+}
+
+.caja h3{
+  background: linear-gradient(rgb(30, 194, 8),rgb(255, 255, 255));
+	-webkit-background-clip: text;
+	color: transparent;  
+}
+
+.caja .proyectos{
+  width: 250px;
+  height: 250px;
+  
+}
+
+
+/*Caracteristicas de las estrellas de la calificación*/
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+.clasificacion {
+    text-align: left;
+    font-size: 30px;
+}

@@ -1,0 +1,28 @@
+
+/*Caracteristicas lista de categorias de talentos*/
+.categorias{
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+.categorias h2 a{
+    background: linear-gradient(yellow,rgb(30, 194, 8));
+	-webkit-background-clip: text;
+	color: transparent;  
+    font-family: lazer;
+    text-decoration: none;
+}
+
+
+
+
+.talentoimg{
+	width: 150px;
+    height: 150px;
+    border-radius: 50%;
+	width: 150px;
+	border: 5px solid rgb(55, 78, 55);
+   
+}
+
