@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="estilos.css">
+  <script src="js/form.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -83,7 +85,7 @@
             <label for="desc" class="form-label">Descripción:</label>
             <textarea  id="desc" class="form-control" placeholder="" style="height: 200px"></textarea>
           </div>
-          <button type="submit" class="btn btn-dark">Enviar</button>
+          <button type="reset" onclick="return enviar()" class="btn btn-dark">Enviar</button>
         </fieldset>
       </form>
 
@@ -98,6 +100,7 @@
     <div class="background">
       <img src="Imagenes/Fondop.png" class="stretch" alt="...">
     </div>
+
 </body>
 
 </html>
